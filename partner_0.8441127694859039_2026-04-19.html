@@ -1,0 +1,54 @@
+
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+  body{font-family:Arial, sans-serif; padding:30px; color:#333;}
+  .header{margin-bottom:30px; border-bottom:3px solid #e02b2b; padding-bottom:10px;}
+  .container{display:flex; gap:20px; align-items:flex-start;}
+  .table-section{flex:1;}
+  table{border-collapse:collapse; width:100%; font-size:13px; margin-top:10px;}
+  th{background:#f4f4f4; padding:10px; text-align:left; border:1px solid #ddd;}
+  td{padding:8px; border:1px solid #ddd;}
+  h3{color:#e02b2b; font-size:16px;}
+  .meta-box{background:#f9f9f9; padding:15px; border-radius:5px; margin-bottom:20px; display:grid; grid-template-columns: 1fr 1fr;}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h2>Reporte de Disponibilidad KVI - 608762</h2>
+</div>
+
+<div class="meta-box">
+  <div>
+    <p><b>Partner ID:</b> 0.8441127694859039</p>
+    <p><b>Fecha de Alerta:</b> 2026-04-19</p>
+  </div>
+  <div>
+    <p><b>Cumplimiento Actual:</b> 59.0%</p>
+  </div>
+</div>
+
+<div class="container">
+  <div class="table-section">
+    <h3>? Productos No Listados</h3>
+    <p><small>Estos productos son clave para la venta y no los tiene disponibles. Es necesario cargarlos.</small></p>
+    <table>
+      <tr><th>Barcode</th><th>Producto</th></tr>
+      <tr><td colspan='2'>No hay productos pendientes de carga.</td></tr>
+    </table>
+  </div>
+
+  <div class="table-section">
+    <h3>?? Bajo Activity Rate</h3>
+    <p><small>Estos productos los tienes listados pero estuvieron apagados mucho tiempo. Son productos clave para la venta, por lo que te recomendamos activarlos. </small></p>
+    <table>
+      <tr><th>Barcode</th><th>Producto</th></tr>
+      <tr><td colspan='2'>No hay productos con baja actividad.</td></tr>
+    </table>
+  </div>
+</div>
+
+</body>
+</html>
